@@ -1,0 +1,17 @@
+# Jacob Muller, jacobmuller@ufl.edu
+# Research Application
+
+Given a list of integers, how do you find all pairs of integers in the list that sum to a specific number?
+
+There are a few ways you could find all pairs that sum to a specific number.
+
+One way you could do it is subtract each integer from the specific number,
+and check if the resulting number appears anywhere on the list.
+
+Another way is to go down the line adding integer 1 to 2, 3, 4... until you reach the end.
+Then, start at integer 2 and work your way up again.
+
+To add efficiency, you could eliminate numbers in the list that couldn't possibly sum up to the specific number.
+For example, if the number is positive, no two negative numbers could sum to it.
+Conversely, two positives could not sum to a negative number. Or, in a list of all positive numbers, numbers
+greater than the specific number could never sum up to that specific number in any combination.
